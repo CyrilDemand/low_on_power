@@ -20,6 +20,7 @@ public class WinningScript : MonoBehaviour
     public void Win()
     {
         batteryText.SetText("You won");
+        GetComponent<AudioSource>().Play();
     
         // On récupère l'index courant et on passe à la scène suivante
         int currentIndex = SceneManager.GetActiveScene().buildIndex;

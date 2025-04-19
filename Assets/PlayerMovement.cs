@@ -26,28 +26,33 @@ public class PlayerMovement : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
             {
                 direction = Vector2.left;
+                GetComponentInChildren<SpriteRenderer>().transform.rotation = Quaternion.Euler(0, 0, -90);
                 isMoving = true;
                 batteryScript.removeBattery(10);
             }
             else if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
             {
                 direction = Vector2.right;
+                GetComponentInChildren<SpriteRenderer>().transform.rotation = Quaternion.Euler(0, 0, 90);
                 isMoving = true;
                 batteryScript.removeBattery(10);
             }
             else if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
             {
                 direction = Vector2.up;
+                GetComponentInChildren<SpriteRenderer>().transform.rotation = Quaternion.Euler(0, 0, 180);
                 isMoving = true;
                 batteryScript.removeBattery(10);
             }
             else if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
             {
                 direction = Vector2.down;
+                GetComponentInChildren<SpriteRenderer>().transform.rotation = Quaternion.identity;
                 isMoving = true;
                 batteryScript.removeBattery(10);
             }
         }
+
     }
 
     void FixedUpdate()
