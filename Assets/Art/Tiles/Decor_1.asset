@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Spikes_7
+  m_Name: Decor_1
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 3455471295796217898, guid: f3ef55e4cd261d944a7965fc41239741, type: 3}
+  m_Sprite: {fileID: -7701600710164591835, guid: 7ec0adc700ec1734daf2ef3ab5508f8f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
