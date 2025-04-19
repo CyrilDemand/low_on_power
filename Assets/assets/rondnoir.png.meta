@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      rondnoir_0: -6018861678201169932
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
