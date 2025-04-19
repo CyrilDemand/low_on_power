@@ -19,6 +19,7 @@ public class Kill : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             // Recharge la scène active (reset total)
+            GetComponent<AudioSource>().Play();
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }

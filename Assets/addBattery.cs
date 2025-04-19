@@ -20,7 +20,7 @@ public class addBattery : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        batteryScript.addBattery(40);
+        batteryScript.addBattery(50);
         AudioSource audio = GetComponent<AudioSource>();
         audio.Play();
 
