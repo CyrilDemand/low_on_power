@@ -172,6 +172,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8283976834036482726, guid: 2187de35df86bc84e8687a51aa76928e, type: 3}
+      propertyPath: battery
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 8283976834036482726, guid: 2187de35df86bc84e8687a51aa76928e, type: 3}
       propertyPath: batteryText
       value: 
       objectReference: {fileID: 1056328079}
@@ -8189,8 +8193,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 70
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
