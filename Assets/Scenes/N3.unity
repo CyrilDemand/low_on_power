@@ -17655,7 +17655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34598fcc741a8f64e88ab6992f69a324, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  batteryText: {fileID: 0}
+  batteryText: {fileID: 1316755951}
 --- !u!82 &1818209511
 AudioSource:
   m_ObjectHideFlags: 0
@@ -17943,11 +17943,11 @@ PrefabInstance:
       objectReference: {fileID: 930833072}
     - target: {fileID: 2004742295670684997, guid: 6170915d1914cea4caffa16be41746b6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.59
+      value: -13.53
       objectReference: {fileID: 0}
     - target: {fileID: 2004742295670684997, guid: 6170915d1914cea4caffa16be41746b6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.33
+      value: -7.36
       objectReference: {fileID: 0}
     - target: {fileID: 2004742295670684997, guid: 6170915d1914cea4caffa16be41746b6, type: 3}
       propertyPath: m_LocalPosition.z
